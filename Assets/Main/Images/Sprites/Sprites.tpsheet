@@ -1,0 +1,44 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:c0f692523cd9a8c4824a2b2d54cc49a8:8dc54fbe553f662c571fa91c607c4c93:8ab4c75ff4b1bbcb67e3b6e53ae23d58$
+#
+:format=40300
+:texture=Sprites.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+backpack;334;942;82;82; 0.5;0.5; 0;0;0;0
+choco;416;942;82;82; 0.5;0.5; 0;0;0;0
+choco_D;498;942;82;82; 0.5;0.5; 0;0;0;0
+cross;580;942;82;82; 0.5;0.5; 0;0;0;0
+cure;662;942;82;82; 0.5;0.5; 0;0;0;0
+cure_B;744;942;82;82; 0.5;0.5; 0;0;0;0
+cure_G;826;942;82;82; 0.5;0.5; 0;0;0;0
+cure_O;908;942;82;82; 0.5;0.5; 0;0;0;0
+cure_R;0;860;82;82; 0.5;0.5; 0;0;0;0
+cure_Y;82;860;82;82; 0.5;0.5; 0;0;0;0
+dialogue;38;750;122;100; 0.5;0.5; 0;0;0;0
+duck_00;482;687;144;163; 0.5;0.5; 0;0;0;0
+duck_body;340;713;142;137; 0.5;0.5; 0;0;0;0
+duck_head;155;975;59;49; 0.5;0.5; 0;0;0;0
+duck_left_leg;214;953;50;71; 0.5;0.5; 0;0;0;0
+duck_neck;0;757;38;93; 0.5;0.5; 0;0;0;0
+duck_right_leg;264;953;70;71; 0.5;0.5; 0;0;0;0
+end;0;999;52;25; 0.5;0.5; 0;0;0;0
+frame;902;850;92;92; 0.5;0.5; 0;0;0;0
+framebg;164;860;82;82; 0.5;0.5; 0;0;0;0
+grass;246;860;82;82; 0.5;0.5; 0;0;0;0
+grasshill;328;860;328;82; 0.5;0.5; 0;0;0;0
+key;656;860;82;82; 0.5;0.5; 0;0;0;0
+knob;131;996;24;28; 0.5;0.5; 0;0;0;0
+plate;160;714;180;136; 0.5;0.5; 0;0;0;0
+pressarrow;738;860;82;82; 0.5;0.5; 0;0;0;0
+pressmouse;820;860;82;82; 0.5;0.5; 0;0;0;0
+sky;0;289;783;398; 0.5;0.5; 0;0;0;0
+start;52;997;79;27; 0.5;0.5; 0;0;0;0
