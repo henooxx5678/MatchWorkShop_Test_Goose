@@ -4,14 +4,13 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-using DoubleHeat.Utilities;
-
 namespace ProjectTestGoose {
 
-    [DisallowMultipleComponent]
-    public class Item : MonoBehaviour {
+    [CreateAssetMenu(fileName = "Item", menuName = "ScriptableObjects/Item", order = 1)]
+    public class Item : ScriptableObject {
 
         public enum Type {
+            None,
             WhiteChoco,
             BlackChoco,
             WhitePotion,
@@ -24,7 +23,10 @@ namespace ProjectTestGoose {
         }
 
 
-        
+        public Type type = Type.None;
+        public string itemName;
+        public string description;
+        public Sprite icon;
 
     }
 }

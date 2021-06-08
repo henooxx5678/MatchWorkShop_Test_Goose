@@ -39,21 +39,6 @@ TextureImporter:
       213: -8732420871825524833
     second: duck_00
   - first:
-      213: -1501377793356720612
-    second: duck_body
-  - first:
-      213: -6668977751149179300
-    second: duck_head
-  - first:
-      213: 1916246717794735603
-    second: duck_left_leg
-  - first:
-      213: -8439975025249504508
-    second: duck_neck
-  - first:
-      213: -3751705106626728980
-    second: duck_right_leg
-  - first:
       213: -3326139919107018092
     second: end
   - first:
@@ -119,7 +104,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -162,18 +147,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -181,7 +154,7 @@ TextureImporter:
       name: backpack
       rect:
         serializedVersion: 2
-        x: 334
+        x: 185
         y: 942
         width: 82
         height: 82
@@ -202,7 +175,7 @@ TextureImporter:
       name: choco
       rect:
         serializedVersion: 2
-        x: 416
+        x: 277
         y: 942
         width: 82
         height: 82
@@ -223,7 +196,7 @@ TextureImporter:
       name: choco_D
       rect:
         serializedVersion: 2
-        x: 498
+        x: 369
         y: 942
         width: 82
         height: 82
@@ -244,7 +217,7 @@ TextureImporter:
       name: cross
       rect:
         serializedVersion: 2
-        x: 580
+        x: 461
         y: 942
         width: 82
         height: 82
@@ -265,7 +238,7 @@ TextureImporter:
       name: cure
       rect:
         serializedVersion: 2
-        x: 662
+        x: 553
         y: 942
         width: 82
         height: 82
@@ -286,7 +259,7 @@ TextureImporter:
       name: cure_B
       rect:
         serializedVersion: 2
-        x: 744
+        x: 645
         y: 942
         width: 82
         height: 82
@@ -307,7 +280,7 @@ TextureImporter:
       name: cure_G
       rect:
         serializedVersion: 2
-        x: 826
+        x: 737
         y: 942
         width: 82
         height: 82
@@ -328,7 +301,7 @@ TextureImporter:
       name: cure_O
       rect:
         serializedVersion: 2
-        x: 908
+        x: 829
         y: 942
         width: 82
         height: 82
@@ -349,8 +322,8 @@ TextureImporter:
       name: cure_R
       rect:
         serializedVersion: 2
-        x: 0
-        y: 860
+        x: 921
+        y: 942
         width: 82
         height: 82
       alignment: 0
@@ -370,8 +343,8 @@ TextureImporter:
       name: cure_Y
       rect:
         serializedVersion: 2
-        x: 82
-        y: 860
+        x: 0
+        y: 850
         width: 82
         height: 82
       alignment: 0
@@ -391,8 +364,8 @@ TextureImporter:
       name: dialogue
       rect:
         serializedVersion: 2
-        x: 38
-        y: 750
+        x: 0
+        y: 730
         width: 122
         height: 100
       alignment: 0
@@ -412,8 +385,8 @@ TextureImporter:
       name: duck_00
       rect:
         serializedVersion: 2
-        x: 482
-        y: 687
+        x: 322
+        y: 667
         width: 144
         height: 163
       alignment: 0
@@ -425,111 +398,6 @@ TextureImporter:
       bones: []
       spriteID: f97f1a1cb7530d680800000000000000
       internalID: -8732420871825524833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: duck_body
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 713
-        width: 142
-        height: 137
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1610510ad80a2be0800000000000000
-      internalID: -1501377793356720612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: duck_head
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 975
-        width: 59
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5e05cfa1180373a0800000000000000
-      internalID: -6668977751149179300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: duck_left_leg
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 953
-        width: 50
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f5d924bc30e79a10800000000000000
-      internalID: 1916246717794735603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: duck_neck
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 757
-        width: 38
-        height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 403b5d27e6f2fda80800000000000000
-      internalID: -8439975025249504508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: duck_right_leg
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 953
-        width: 70
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cebae7935144febc0800000000000000
-      internalID: -3751705106626728980
       vertices: []
       indices: 
       edges: []
@@ -559,13 +427,13 @@ TextureImporter:
       name: frame
       rect:
         serializedVersion: 2
-        x: 902
-        y: 850
+        x: 890
+        y: 840
         width: 92
         height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 15, y: 15, z: 15, w: 15}
+      border: {x: 16, y: 16, z: 16, w: 16}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -580,13 +448,13 @@ TextureImporter:
       name: framebg
       rect:
         serializedVersion: 2
-        x: 164
-        y: 860
+        x: 92
+        y: 850
         width: 82
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 15, y: 15, z: 15, w: 15}
+      border: {x: 12, y: 12, z: 12, w: 12}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -601,8 +469,8 @@ TextureImporter:
       name: grass
       rect:
         serializedVersion: 2
-        x: 246
-        y: 860
+        x: 184
+        y: 850
         width: 82
         height: 82
       alignment: 0
@@ -622,8 +490,8 @@ TextureImporter:
       name: grasshill
       rect:
         serializedVersion: 2
-        x: 328
-        y: 860
+        x: 276
+        y: 850
         width: 328
         height: 82
       alignment: 0
@@ -643,8 +511,8 @@ TextureImporter:
       name: key
       rect:
         serializedVersion: 2
-        x: 656
-        y: 860
+        x: 614
+        y: 850
         width: 82
         height: 82
       alignment: 0
@@ -664,7 +532,7 @@ TextureImporter:
       name: knob
       rect:
         serializedVersion: 2
-        x: 131
+        x: 151
         y: 996
         width: 24
         height: 28
@@ -685,8 +553,8 @@ TextureImporter:
       name: plate
       rect:
         serializedVersion: 2
-        x: 160
-        y: 714
+        x: 132
+        y: 694
         width: 180
         height: 136
       alignment: 0
@@ -706,8 +574,8 @@ TextureImporter:
       name: pressarrow
       rect:
         serializedVersion: 2
-        x: 738
-        y: 860
+        x: 706
+        y: 850
         width: 82
         height: 82
       alignment: 0
@@ -727,8 +595,8 @@ TextureImporter:
       name: pressmouse
       rect:
         serializedVersion: 2
-        x: 820
-        y: 860
+        x: 798
+        y: 850
         width: 82
         height: 82
       alignment: 0
@@ -749,7 +617,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 289
+        y: 259
         width: 783
         height: 398
       alignment: 0
@@ -769,7 +637,7 @@ TextureImporter:
       name: start
       rect:
         serializedVersion: 2
-        x: 52
+        x: 62
         y: 997
         width: 79
         height: 27
@@ -789,7 +657,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 99f7b9e5caf00ba468b69a1562d8a79a
     internalID: 0
     vertices: []
     indices: 

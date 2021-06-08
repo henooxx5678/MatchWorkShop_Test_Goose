@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57adf07f9c3413d449476748a262a34e, type: 3}
+  m_Name: Item 2 BlackChoco
+  m_EditorClassIdentifier: 
+  type: 2
+  itemName: "\u9ED1\u5DE7\u514B\u529B"
+  description: "\u4E00\u5305\u5DF2\u6253\u958B\u7684\u9ED1\u8272\u5DE7\u514B\u529B\uFF0C\u5230\u671F\u65E5\u88AB\u5283\u6389"
+  icon: {fileID: 9004902275434263880, guid: fbeb91e541d18e64bbddbdb19f18b3aa, type: 3}
