@@ -63,7 +63,7 @@ namespace ProjectTestGoose {
             _spriteAnimator.SetBool("IsWalking", IsWalking);
 
             // === Input ===
-            _currentHorizontalMoveDirection = (int) Input.GetAxisRaw("Horizontal");
+            _currentHorizontalMoveDirection = (int) Input.GetAxisRaw("Horizontal Move");
 
             if (_isTryingToJump == false) {
                 _isTryingToJump = Input.GetButtonDown("Jump");
