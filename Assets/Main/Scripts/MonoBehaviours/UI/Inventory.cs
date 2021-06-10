@@ -71,6 +71,17 @@ namespace ProjectTestGoose {
                 }
             }
 
+            // == 這段只是為了要用到 PlayerPrefs 才加的，沒有特別的用處 ==
+            int totalConsumedCount = 0;
+            if (PlayerPrefs.HasKey("Total Consumed Count")) {
+                totalConsumedCount = PlayerPrefs.GetInt("Total Consumed Count");
+            }
+            totalConsumedCount += amount;
+
+            PlayerPrefs.SetInt("Total Consumed Count", totalConsumedCount);
+            Debug.Log($"Total Consumed Count: {totalConsumedCount}");
+            // == ================================================= ==
+
             UpdateDisplay();
         }
 
