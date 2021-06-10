@@ -12,6 +12,7 @@ namespace ProjectTestGoose {
 
         [SerializeField] float _walkSpeed = 1f;
         [SerializeField] float _jumpForce = 1f;
+        [SerializeField] int _initialFacingDir = -1;
 
         [Header("REFS")]
         [SerializeField] Animator _spriteAnimator;
@@ -43,6 +44,14 @@ namespace ProjectTestGoose {
                     Vector2 walkVelocity = Vector2.right * _currentHorizontalMoveDirection * _walkSpeed;
                     transform.position += (Vector3) walkVelocity * Time.fixedDeltaTime * Time.timeScale;
                     IsWalking = true;
+
+                    // set facing
+                    if (_currentHorizontalMoveDirection == _initialFacingDir) {
+                        transform.rotation = Quaternion.identity;
+                    }
+                    else {
+                        transform.rotation = Quaternion.AngleAxis(180f, Vector3.up);
+                    }
                 }
 
                 if (_isTryingToJump) {
